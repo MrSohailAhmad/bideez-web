@@ -9,6 +9,7 @@ export default function AboutSection() {
   ];
 
   return (
+    <div id="about">
     <section className="bg-gray-50 py-16 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
@@ -57,5 +58,6 @@ export default function AboutSection() {
         </div>
       </div>
     </section>
+    </div>
   );
 }
